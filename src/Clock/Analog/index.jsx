@@ -9,7 +9,7 @@ function AnalogClock() {
         let now = new Date();
 
         return {
-            second: (now.getSeconds()/60 * 360) + 90,
+            second: (now.getSeconds()/60 * 360) + ((now.getMilliseconds()/1000)*6) + 90,
             minute: (now.getMinutes()/60 * 360) + ((now.getSeconds()/60)*6) + 90,
             hour: (now.getHours()/12 * 360) + ((now.getMinutes()/60)*30) + 90
         }
