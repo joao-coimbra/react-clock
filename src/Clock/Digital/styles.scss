@@ -1,0 +1,38 @@
+#digital {
+    * {
+        font-family: "Digital";
+        font-size: 56pt;
+    }
+
+    position: relative;
+    padding: .5rem 1rem;
+    border: 7px solid #282c34;
+    box-shadow: 0px 0px 10px rgba(67,67,67,0.5), inset 0px 0px 10px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    div {
+        display: flex;
+
+        > div div {
+            width: 2ch;
+        }
+
+        span {
+            width: 1ch;
+            // display: flex;
+            text-align: right;
+
+            &.divisor {
+                width: fit-content;
+            }
+        }
+
+        &.fake {
+            position: absolute;
+            opacity: .05;
+        }
+    }
+}
