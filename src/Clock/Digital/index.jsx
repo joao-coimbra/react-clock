@@ -23,11 +23,7 @@ function DigitalWatch() {
         <div id="digital">
             <div className="display">
                 <div className="fake">
-                    <div>88</div>
-                    <span className='divisor'>:</span>
-                    <div>88</div>
-                    <span className='divisor'>:</span>
-                    <div>88</div>
+                    88:88:88
                 </div>
 
                 <div className="visor">
