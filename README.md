@@ -16,7 +16,7 @@
 
 ## :dart: Objetivo
 
-- Implementar um relórgio analógico e um relógio digital utilizando funções de data e hora do javascript em uma interface visual em react-js
+- Implementar um relógio analógico e um relógio digital utilizando funções de data e hora do javascript em uma interface visual em react-js.
 
 ## :hammer: Funcionalidades
 
