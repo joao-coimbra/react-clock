@@ -1,9 +1,7 @@
 # Convert2bases
-## Conversão de números entre bases
+## Relógio analógico e digital em um só lugar.
 
 ![License](https://img.shields.io/badge/license-MIT-green) ![Data da última versão](https://img.shields.io/badge/release%20date-september-yellowgreen)
-
-Relógio analógico e digital em um só lugar.
 
 ## Índice
 
