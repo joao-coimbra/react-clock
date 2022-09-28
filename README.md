@@ -1,7 +1,7 @@
 # Convert2bases
 ## Relógio analógico e digital em um só lugar.
 
-<img style="max-width: 25%;" src="https://github.com/joao-coimbra/react-clock/blob/master/public/clock.png?raw=true" alt="Relógio analógico do site"/>
+<img style="max-height: 400px;" src="https://github.com/joao-coimbra/react-clock/blob/master/public/clock.png?raw=true" alt="Relógio analógico do site"/>
 
 ![License](https://img.shields.io/badge/license-MIT-green) ![Data da última versão](https://img.shields.io/badge/release%20date-september-yellowgreen)
 
