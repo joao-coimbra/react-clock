@@ -1,6 +1,8 @@
 # Convert2bases
 ## Relógio analógico e digital em um só lugar.
 
+![Relógio do site](https://github.com/joao-coimbra/react-clock/blob/master/public/clock.png?raw=true)
+
 ![License](https://img.shields.io/badge/license-MIT-green) ![Data da última versão](https://img.shields.io/badge/release%20date-september-yellowgreen)
 
 ## Índice
