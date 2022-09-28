@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Convert2bases
+## Conversão de números entre bases
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/license-MIT-green) ![Data da última versão](https://img.shields.io/badge/release%20date-september-yellowgreen)
 
-## Available Scripts
+Relógio analógico e digital em um só lugar.
 
-In the project directory, you can run:
+## Índice
 
-### `npm start`
+* [Objetivo](#dart-objetivo)
+* [Funcionalidades](#hammer-funcionalidades)
+* [Técnicas e Tecnologias](#zap-técnicas-e-tecnologias)
+* [Acesso ao projeto](#open_file_folder-acesso-ao-projeto)
+* [Abrir e rodar o projeto](#hammer_and_wrench-abrir-e-rodar-o-projeto)
+* [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :dart: Objetivo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Implementar um relórgio analógico e um relógio digital utilizando funções de data e hora do javascript em uma interface visual em react-js
 
-### `npm test`
+## :hammer: Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O programa faz a visualização das horas em ambos relógios:
+* Analógico ;
+* Digital .
 
-### `npm run build`
+## :zap: Técnicas e Tecnologias
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As técnicas e tecnologias utilizadas são:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Reactjs](https://reactjs.org/): Uma biblioteca JavaScript para criar interfaces de usuário.
+- [Sass](https://sass-lang.com/): Sass é a linguagem de extensão CSS de nível profissional mais madura, estável e poderosa  do mundo.
+- Através dos dados de tempo recebidos, o programa gera determinado ângulo para cada ponteiro representado pelas horas, minutos e segundos, determinando sua posição no relógio analógico.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :open_file_folder: Acesso ao projeto
 
-### `npm run eject`
+Você pode acessar o projeto:
+- clonando o repositório pelo link [algoritmos-substituicao-paginas](https://github.com/joao-coimbra/react-clock.git):
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone https://github.com/joao-coimbra/react-clock.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Fazendo o download do projeto [clicando aqui](https://github.com/joao-coimbra/react-clock/archive/refs/heads/master.zip).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :hammer_and_wrench: Abrir e rodar o projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Após realizar o download do projeto, instale suas dependências
 
-## Learn More
+```sh
+cd react-clock
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Agora é só rodar !
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm start
+```
 
-### Code Splitting
+Será aberto em seu navegador padrão o link [http://localhost:3000](http://localhost:3000) e então é só aproveitar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
