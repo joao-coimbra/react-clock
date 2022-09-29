@@ -28,8 +28,8 @@ O programa faz a visualização das horas em ambos relógios:
 
 As técnicas e tecnologias utilizadas são:
 
-- [Reactjs](https://reactjs.org/): Uma biblioteca JavaScript para criar interfaces de usuário.
-- [Sass](https://sass-lang.com/): Sass é a linguagem de extensão CSS de nível profissional mais madura, estável e poderosa  do mundo.
+- [Reactjs](https://reactjs.org/) : Uma biblioteca JavaScript para criar interfaces de usuário.
+- [Sass](https://sass-lang.com/) : Sass é a linguagem de extensão CSS de nível profissional mais madura, estável e poderosa  do mundo.
 - Através dos dados de tempo recebidos, o programa gera determinado ângulo para cada ponteiro representado pelas horas, minutos e segundos, determinando sua posição no relógio analógico.
 
 ## :open_file_folder: Acesso ao projeto
