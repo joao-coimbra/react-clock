@@ -1,4 +1,4 @@
-# Convert2bases
+# React Clock
 ## Relógio analógico e digital em um só lugar.
 
 ![Relógio analógico do site](https://github.com/joao-coimbra/react-clock/blob/master/public/clock.png?raw=true)
